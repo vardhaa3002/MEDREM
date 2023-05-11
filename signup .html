@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <style>
+      /* CSS styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #e4710c;
+      }
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #b1be3a;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(174, 97, 167, 0.3);
+        margin-top: 150px;
+      }
+      input[type=text], input[type=password], input[type=email] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 3px;
+        background-color: #f2f2f2;
+      }
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #3e8e41;
+      }
+      h1 {
+        text-align: center;
+      }
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+    </style>
+    <script src="my.js" defer></script>
+  </head>
+  <body>
+    <form id="sform">
+      <h1>Sign Up</h1>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="password">Confirm Password:</label>
+      <input type="password" id="cpassword" name="password" required>
+      <input type="submit" value="Sign Up">
+    </form>
+  </body>
+</html>

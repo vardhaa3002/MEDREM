@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    
+        body {
+			background-image:url("https://thumbs.dreamstime.com/z/medical-icons-seamless-pattern-can-be-used-any-medical-healthcare-topics-as-wallpaper-illustration-wrapping-paper-111326836.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: Arial, sans-serif;
+		    overflow: hidden;;
+			margin: 0;
+			padding: 0;
+		
+    }
+
+header {
+	background-color: #0d87e3;
+	height: 63px;
+	padding: 10px;
+	color: #f10d0d;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: rgb(75, 227, 116);
+	padding: 20px;
+	width: 100%;
+	position:absolute;
+	top: 83px;
+	
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+
+nav li a {
+	color: #ff7300;
+	text-decoration: none;
+	
+	 
+}
+
+nav li a:hover {
+	background-color: rgb(73, 179, 203);
+    color: crimson;
+    padding: 10px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+}
+header h1{
+    text-align: center;
+}
+.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 200vh;
+			position: relative;
+			bottom: 400px;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: #a8c92e;
+			padding: 20px;
+			border-radius: 40px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+		}
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border:rgb(187, 178, 164);
+			background-color: #68c87f;
+			width: 100%;
+			color: #8e3570;
+			font-family: 'Courier New', Courier, monospace;
+		}
+		input[type="submit"] {
+			padding: 10px;
+			border-radius: 5px;
+			border:navajowhite;
+			background-color: #f50f0f;
+			color: white;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+}
+form button{
+	align-items: center;
+	
+	bottom: 30px;
+}
+form button:hover{
+	background-color: #f50f0f;
+}
+
+</style>
+<script src="login.js" defer></script>
+<body>
+	<header>
+        <h1 style="font-family: 'Courier New', Courier, monospace;"><b><strong>MEDICINE REMINDER</h1></b></strong>
+		<nav>
+			<ul>
+				<li><a href="medicine recommendation2.html">Home</a></li>
+				<li><a href="about2.html">About</a></li>
+				
+				<li><a href="contact2.html">Contact</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<main>
+        <div class="container">
+			<form id="first-form">
+				<h2 style="font-family: 'Courier New', Courier, monospace;">Login</h2>
+				<input type="text" placeholder="Username" id="usernames">
+				<input type="password" placeholder="Password" id="passwords">
+				<input type="submit" value="Login">
+				</form>
+				<form action="signup .html">
+				<button href="#">SIGN UP</button>
+
+				
+			</form>
+		</div>
+
+		
+		
+	</main>
+</body>
+</html>
